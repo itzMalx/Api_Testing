@@ -1,17 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-15T15:45:30 IST" name="Default suite" finished-at="2026-06-15T15:45:38 IST" duration-ms="7448">
+  <suite started-at="2026-06-16T07:57:58 IST" name="Suite" finished-at="2026-06-16T07:59:12 IST" duration-ms="73872">
     <groups>
     </groups>
-    <test started-at="2026-06-15T15:45:30 IST" name="Default test" finished-at="2026-06-15T15:45:38 IST" duration-ms="7448">
+    <test started-at="2026-06-16T07:57:58 IST" name="Test" finished-at="2026-06-16T07:59:12 IST" duration-ms="73872">
+      <class name="com.test.GetuserTest">
+        <test-method signature="getUserData()[pri:0, instance:com.test.GetuserTest@48f2bd5b]" started-at="2026-06-16T07:58:50 IST" name="getUserData" finished-at="2026-06-16T07:59:12 IST" duration-ms="21724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserData -->
+      </class> <!-- com.test.GetuserTest -->
       <class name="com.test.ApivalidationTest">
-        <test-method signature="validateUserData()[pri:0, instance:com.test.ApivalidationTest@2a65fe7c]" started-at="2026-06-15T15:45:31 IST" name="validateUserData" finished-at="2026-06-15T15:45:38 IST" duration-ms="7206" status="PASS">
+        <test-method signature="validateUserData()[pri:0, instance:com.test.ApivalidationTest@4c583ecf]" started-at="2026-06-16T07:58:25 IST" name="validateUserData" finished-at="2026-06-16T07:58:27 IST" duration-ms="2288" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUserData -->
       </class> <!-- com.test.ApivalidationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.test.CreateuserTest">
+        <test-method signature="createUser()[pri:0, instance:com.test.CreateuserTest@692f203f]" started-at="2026-06-16T07:58:27 IST" name="createUser" finished-at="2026-06-16T07:58:50 IST" duration-ms="22962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- com.test.CreateuserTest -->
+      <class name="com.test.SeleniumTest">
+        <test-method signature="testGetRequest()[pri:0, instance:com.test.SeleniumTest@5c6648b0]" started-at="2026-06-16T07:57:58 IST" name="testGetRequest" finished-at="2026-06-16T07:58:25 IST" duration-ms="26717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetRequest -->
+      </class> <!-- com.test.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
