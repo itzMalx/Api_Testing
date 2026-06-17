@@ -7,6 +7,14 @@
       <class name="com.test.ApivalidationTest"/>
       <class name="com.test.CreateuserTest"/>
       <class name="com.test.GetuserTest"/>
+      <class name="restassure.CreateTrainee"/>
+      <class name="restassure.Delete"/>
+      <class name="restassure.Invalidlogin"/>
+      <class name="restassure.GetTrainee"/>
+      <class name="restassure.Invalidtrainee"/>
+      <class name="restassure.Login"/>
+      <class name="restassure.partialupdate"/>
+      <class name="restassure.Updatetrainee"/>      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
