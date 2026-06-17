@@ -15,7 +15,7 @@ public class GetTraniee {
 				.get("http://localhost:3000/trainees/1");
 		res.prettyPrint();
 		Assert.assertEquals(res.getStatusCode(),200);
-		Assert.assertEquals(res.jsonPath().getString("name"),"Malavicka");
+		Assert.assertEquals(res.jsonPath().getString("name"),"Malavicka1");
 	}
 
 }
