@@ -15,7 +15,7 @@ public class Updatetrainee {
 	@Test
 	public void update_trainee() {
 		Map<String,Object> payload = new HashMap<>();
-		payload.put("name", "Malavicka1");
+		payload.put("name", "Malavicka2");
 		Response res = RestAssured
 				.given()
 				.contentType(ContentType.JSON)
@@ -23,7 +23,8 @@ public class Updatetrainee {
 				.when()
 				.put("http://localhost:3000/trainees/1");
 		res.prettyPrint();
-		Assert.assertEquals(res.getStatusCode(),200);
+		res.then()
+		.statusCode(200);
 	}
 
 }

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restassure.CreateTraniee">
+      <class name="restassure.Invalidlogin">
         <methods>
-          <include name="create_post"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- restassure.CreateTraniee -->
+      </class> <!-- restassure.Invalidlogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

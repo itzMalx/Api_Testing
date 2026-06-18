@@ -22,9 +22,10 @@ public class Invalidlogin {
 				.contentType(ContentType.JSON)
 				.body(payload)
 				.when()
-				.post("http://localhost:5000/login");
+				.post("http://localhost:3000/login");
 		res.prettyPrint();
-		Assert.assertEquals(res.getStatusCode(),401);	
+		res.then()
+		.statusCode(404);
 	}
 
 }

@@ -15,10 +15,10 @@ public class CreateTraniee {
 	@Test
 	public void create_post() {
 		Map<String, Object> payload = new HashMap<>();
-		payload.put("name", "Malu");
-		payload.put("email", "mala@gmail.com");
-		payload.put("company", "CTS");
-		payload.put("id", "1");
+		payload.put("name","Malavicka");
+		payload.put("email", "erty@gmail.com");
+		payload.put("company", "Expleo");
+		payload.put("id", "35");
 		
 		Response res = RestAssured
 				.given()
@@ -28,8 +28,9 @@ public class CreateTraniee {
 				.post("http://localhost:3000/trainees");
 		res.prettyPrint();
 	   System.out.println(res.getStatusCode());
-	   Assert.assertEquals(res.getStatusCode(),201);
-	   Assert.assertEquals(res.jsonPath().getString("company"),"CTS");
+	   res.then()
+	   .statusCode(201);
+	   Assert.assertEquals(res.jsonPath().getString("company"),"Expleo");
 	}
 
 }

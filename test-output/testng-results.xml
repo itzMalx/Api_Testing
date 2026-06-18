@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-16T22:15:54 IST" name="Default suite" finished-at="2026-06-16T22:15:57 IST" duration-ms="3713">
+  <suite started-at="2026-06-18T08:38:18 IST" name="Default suite" finished-at="2026-06-18T08:38:23 IST" duration-ms="4228">
     <groups>
     </groups>
-    <test started-at="2026-06-16T22:15:54 IST" name="Default test" finished-at="2026-06-16T22:15:57 IST" duration-ms="3713">
-      <class name="restassure.Delete">
-        <test-method signature="delete_trainee()[pri:0, instance:restassure.Delete@2a65fe7c]" started-at="2026-06-16T22:15:54 IST" name="delete_trainee" finished-at="2026-06-16T22:15:57 IST" duration-ms="3623" status="PASS">
+    <test started-at="2026-06-18T08:38:18 IST" name="Default test" finished-at="2026-06-18T08:38:23 IST" duration-ms="4228">
+      <class name="restassure.Invalidtrainee">
+        <test-method signature="invalid_trainee()[pri:0, instance:restassure.Invalidtrainee@4d14b6c2]" started-at="2026-06-18T08:38:19 IST" name="invalid_trainee" finished-at="2026-06-18T08:38:23 IST" duration-ms="3928" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete_trainee -->
-      </class> <!-- restassure.Delete -->
+        </test-method> <!-- invalid_trainee -->
+      </class> <!-- restassure.Invalidtrainee -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

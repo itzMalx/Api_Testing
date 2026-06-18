@@ -1,14 +1,18 @@
 package Typiecode;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+
 public class put {
+
 	@Test
 	public void post_routes() {
 		String requestBody =
 				"{"
-						+ "\"title\":\"MalavickaUpdated\","
+						+ "\"title\":\"Malavicka Updated\","
 						+ "\"body\":\"Learning API\","
 						+ "\"userId\":1"
 						+ "}";
@@ -20,6 +24,7 @@ public class put {
             .put("https://jsonplaceholder.typicode.com/posts/1");
     System.out.println("Status Code : " + res.getStatusCode());
     res.prettyPrint();
-    Assert.assertEquals(res.getStatusCode(), 200);
+    res.then()
+    .statusCode(200);
 	}
 }

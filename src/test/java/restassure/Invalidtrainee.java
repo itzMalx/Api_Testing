@@ -13,7 +13,8 @@ public class Invalidtrainee {
 		Response res = RestAssured
 				.given()
 				.when()
-				.get("http://localhost:3000/traineess/1");
-		Assert.assertEquals(res.getStatusCode(),404);
+				.get("http://localhost:3000/trainees/35");
+		res.then()
+		.statusCode(404);
 	}
 }
